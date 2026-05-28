@@ -83,3 +83,115 @@ Evaluator Agent
 Feedback Loop
   ↓
 Final Response
+
+```
+
+## Tech Stack
+
+### AI / Agent Frameworks
+- LangGraph
+- LangChain
+- Google Gemini API
+
+### Tooling & Automation
+- Playwright
+- Python REPL
+- Google Serper Search API
+
+### Frontend
+- Gradio
+
+### State & Persistence
+- LangGraph MemorySaver
+- SQLite Checkpointing
+
+### Language
+- Python
+
+---
+
+## Key Engineering Concepts Demonstrated
+
+- Multi-agent orchestration
+- Stateful workflow systems
+- Tool calling architectures
+- Human-in-the-loop workflows
+- Evaluator-worker agent patterns
+- Structured outputs
+- Persistent conversational memory
+- Browser automation agents
+- Async programming
+- Graph-based AI execution
+- Autonomous task execution
+
+---
+
+## Example Use Cases
+
+- Autonomous research assistant
+- Browser automation agent
+- AI operations co-pilot
+- Workflow orchestration engine
+- Task automation assistant
+- Self-correcting AI systems
+
+---
+
+## Project Structure
+
+```bash
+.
+├── app.py
+├── sidekick.py
+├── sidekick_tools.py
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## Running the Project
+
+### 1. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 2. Install Playwright Browsers
+
+```bash
+playwright install
+```
+
+### 3. Configure Environment Variables
+
+Create a `.env` file:
+
+```env
+GOOGLE_API_KEY=your_api_key
+SERPER_API_KEY=your_api_key
+PUSHOVER_TOKEN=your_token
+PUSHOVER_USER=your_user
+```
+
+### 4. Run the Application
+
+```bash
+python app.py
+```
+
+---
+
+## Future Improvements
+
+- Vector database memory integration
+- Multi-agent collaboration
+- RAG pipelines
+- Docker deployment
+- Cloud deployment
+- Observability & tracing
+- Authentication & RBAC
+- Sandboxed code execution
+- Streaming responses
+- Multi-modal agents
